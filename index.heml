@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charst="UTF-8">
+    <title>練習12</title>
+  </head>
+  <body>
+    <section>
+      <hl>リスト</hl>
+      <ul id="list"></ul>
+    </section>
+    <script type="text/javascript" src="js/default.js"></script>
+  </body>
+</html>
