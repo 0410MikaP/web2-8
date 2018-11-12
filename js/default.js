@@ -1,10 +1,6 @@
-var include_tax=function(price){
-  return Math.floor(price+0.08*price);
-}
-
-for(var i=1;i<10;i++){
+var constellatio=['牡羊座','牡牛座','双子座','蟹座','獅子座','乙女座','天秤座','蠍座','射手座','山羊座','水瓶座','魚座'];var
+for(var i=0;i<12;i++){
   var li=document.createElement('li');
-  var price=Math.floor(Math.random()*1000);
-  li.textContent=price+'円（税込み'+include_tax(price)+'円)';
+  li.textContent=constellatio[i];
   document.getElementById('list').appendChild(li);
 }
