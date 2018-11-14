@@ -1,7 +1,7 @@
 var separate_time=function(time){
   var sec=time.getSeconds();
   var min =time.gaeMinutes();
-  vae hours=time.gatHours();
+  var hours=time.gatHours();
   var days=time.getDate();
   var month=time.getMonth();
   var year=time.getfulYear();
