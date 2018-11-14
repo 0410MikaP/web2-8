@@ -18,3 +18,10 @@ var update = function(){
     counter[1]+'分'+
     counter[0]+'秒';
 refresh();//タイマーを起動
+}
+
+var refresh= function(){
+  setTimeout(update,1000);
+  
+}
+update();
