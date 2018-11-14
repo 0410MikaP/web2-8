@@ -9,7 +9,7 @@ var separate_time=function(time){
 }
 
 var now=new Date();
-vae counter=separate_time(now);  
+var counter=separate_time(now);  
 document.getElementById('list').textContent;
   counter[5]+'年'+
   counter[4]+'月'+
