@@ -4,7 +4,7 @@ var separate_time=function(time){
   var hours=time.getHours();
   var days=time.getDate();
   var month=time.getMonth();
-  var year=time.getfulYear();
+  var year=time.getfullYear();
   return[sec,min,hours,days,month,year];
 }
 
