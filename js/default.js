@@ -1,5 +1,5 @@
 function setCookie(c_name,value,expiredays){
-  var extime = new Date()getTime();
+  var extime = new Date().getTime();
   var cltime = new Date(extime + (60*60*24*1000*expiredays));
   var ezdate = cltime.toUTCString();
   var s="";
