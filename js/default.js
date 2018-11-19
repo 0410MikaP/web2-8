@@ -11,7 +11,8 @@ if(filename === 'other.html'){
 }
 opt.selected = true;
 
-document.getElementById('from').select.onchange = function(){
+document.getElementById('from').select.onchange = function()
+{
   location.href = document.getElementById('from').select.value;
 }
 
