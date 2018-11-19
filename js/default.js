@@ -11,9 +11,9 @@ if(filename === 'other.html'){
 }
 opt.selected = true;
 
-document.getElementById('from').select.onchange = function()
+document.getElementById('form').select.onchange = function()
 {
-  location.href = document.getElementById('from').select.value;
+  location.href = document.getElementById('form').select.value;
 }
 
 var separate_time=function(time){
