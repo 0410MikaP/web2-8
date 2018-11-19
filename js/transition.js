@@ -9,7 +9,7 @@ if(filename === 'other.html'){
 }else{
   opt = document.querySelector('option[value="index.html"]');
 }
-opt.selected = ture;
+opt.selected = true;
 
 document.getElementById('from').select.onchange = function(){
   location.href = document.getElementById('from').select.value;
